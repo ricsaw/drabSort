@@ -24,7 +24,9 @@ Install them using pip:
 pip install -r requirements.txt
 
 ```
+
 ## Benchmarking
+
 The benchmark function runs each sorting algorithm on multiple test cases of varying array sizes, measuring the time taken to sort each array. The test cases include:
 
 Random: Arrays of random values.
@@ -33,7 +35,8 @@ Reverse: Arrays sorted in descending order.
 Duplicate: Arrays where all elements are the same.
 
 ## Usage
-To run the benchmark, simply execute the sort.py script. The script will:
+
+To run the benchmark, simply execute the benchmark.py script. The script will:
 
 Define several test arrays.
 Run the drab_sort function and measure the time it takes to sort each array.
@@ -41,4 +44,4 @@ Print the sorted arrays and the time taken for each test.
 bash
 Copy
 Edit
-python sort.py
+python benchmark.py
